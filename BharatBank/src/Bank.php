@@ -9,51 +9,39 @@ use Bank\Operations\Balance;
 use Bank\Operations\Transaction;
 use Bank\Operations\Account2account;
 
-/**
- *
- */
+
  class Bank implements Bankinterface
  {
 
      /**
-      * @param $Accountno
+      * @param $accountNo
       * @param $amt
       * @return int
       */
 
-    function cash($Accountno, $amt): int
+    function cash($accountNo, $amt): int
     {
-        $obj = new Transfer($Accountno,$amt);
+        $obj = new Transfer($accountNo,$amt);
         return ($obj->addcash());
     }
 
-     /**
-      * @param $Accountno
-      * @return int
-      */
-    function getBalance($Accountno): int
+
+    function getBalance($accountNo): int
     {
-        $obj = new Balance($Accountno);
+        $obj = new Balance($accountNo);
         return $obj->bal();
     }
 
-     /**
-      * @param $Accountno
-      * @return int
-      */
-    function getStatement($Accountno): array
+
+    function getStatement($accountNo): int
     {
-        $obj = new Transaction($Accountno);
+        $obj = new Transaction($accountNo);
         return $obj->statement();
     }
 
-     /**
-      * @param $source
-      * @param $destination
-      * @param $amount
-      * @return int
-      */
-    function Account2($source, $destination, $amount): int
+
+    function atoa($source, $destination, $amount): array
+
     {
         $obj = new Account2account($source, $destination, $amount);
         return $obj->a2a();

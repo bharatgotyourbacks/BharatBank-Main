@@ -1,1 +1,1 @@
-{"users":[{"Name":"Sravan","AccountNo":"123456","Amount":12400},{"Name":"Shiva","AccountNo":"456738","Amount":11100}]}
+{"users":{"123456":{"Name":"A","Accountno":123456,"Amount":7800},"456738":{"Name":"B","Accountno":456738,"Amount":24000},"114532":{"Name":"C","Accountno":114532,"Amount":53600},"931037":{"Name":"D","Accountno":931037,"Amount":2030000}}}
