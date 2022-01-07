@@ -26,31 +26,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Bank-Bank.html#method_Account2"
         },                {
-            "fqsen": "\\Bank\\Contracts\\Bankinterface",
-            "name": "Bankinterface",
-            "summary": "",
-            "url": "classes/Bank-Contracts-Bankinterface.html"
-        },                {
-            "fqsen": "\\Bank\\Contracts\\Bankinterface\u003A\u003Acash\u0028\u0029",
-            "name": "cash",
-            "summary": "",
-            "url": "classes/Bank-Contracts-Bankinterface.html#method_cash"
-        },                {
-            "fqsen": "\\Bank\\Contracts\\Bankinterface\u003A\u003AgetBalance\u0028\u0029",
-            "name": "getBalance",
-            "summary": "",
-            "url": "classes/Bank-Contracts-Bankinterface.html#method_getBalance"
-        },                {
-            "fqsen": "\\Bank\\Contracts\\Bankinterface\u003A\u003AgetStatement\u0028\u0029",
-            "name": "getStatement",
-            "summary": "",
-            "url": "classes/Bank-Contracts-Bankinterface.html#method_getStatement"
-        },                {
-            "fqsen": "\\Bank\\Contracts\\Bankinterface\u003A\u003AAccount2\u0028\u0029",
-            "name": "Account2",
-            "summary": "",
-            "url": "classes/Bank-Contracts-Bankinterface.html#method_Account2"
-        },                {
             "fqsen": "\\Bank\\Operations\\Account2account",
             "name": "Account2account",
             "summary": "",
@@ -155,11 +130,6 @@ Search.appendIndex(
             "name": "Bank",
             "summary": "",
             "url": "namespaces/bank.html"
-        },                {
-            "fqsen": "\\Bank\\Contracts",
-            "name": "Contracts",
-            "summary": "",
-            "url": "namespaces/bank-contracts.html"
         },                {
             "fqsen": "\\Bank\\Operations",
             "name": "Operations",
