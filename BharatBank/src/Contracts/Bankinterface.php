@@ -7,6 +7,7 @@ namespace Bank\Contracts;
 interface Bankinterface
 {
 
+<<<<<<< HEAD
     /**
      * @param $accountNo
      * @param $amt
@@ -50,4 +51,17 @@ interface Bankinterface
      * @return int
      */
     function Account2($source, $destination, $amount): int;
+=======
+
+    function cash($accountNo, $amt): int;
+
+
+    function getBalance($accountNo): int;
+
+
+    function getStatement($accountNo): int;
+
+
+    function atoa($source, $destination, $amount): array;
+>>>>>>> 9322c44d74f300cb74955634c30b53f2dfc9f616
 }
